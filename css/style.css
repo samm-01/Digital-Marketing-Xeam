@@ -787,4 +787,88 @@ footer.footer-box .heading_main h2 {
     margin-top: 20px;
 }
 
+/* Past Projects --> */
 
+.work_blog {
+	position: relative;
+	transition: ease all 0.4s;
+	overflow: hidden;
+}
+
+.hover_workblog {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(252,48,30,.95);
+    top: -101%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.work_blog:hover .hover_workblog,
+.work_blog:focus .hover_workblog {
+    visibility: visible;
+    opacity: 1;
+    top: 0%;
+}
+
+
+.blog_details h3 {
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.blog_details p {
+    color: #fff;
+    font-size: 15px;
+    line-height: normal;
+}
+
+#demo .img-responsive {
+	width: 100%;
+}
+.img-responsive {
+	max-width: 100%;
+}
+
+/* Email ID --> */
+
+.form_section {
+	float: right;
+	padding: 20px 0 0;
+}
+
+form.news_submit_form .field input[type="email"] {
+    width: 430px;
+    height: 60px;
+    padding: 15px 20px;
+    border: none;
+    float: left;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 15px 0 0 15px;
+
+}
+
+form.news_submit_form .field button {
+    height: 60px;
+    width: 210px;
+    border: none;
+    float: left;
+    margin: 0;
+    background: #ef4023;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+
+}
