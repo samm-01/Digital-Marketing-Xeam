@@ -694,110 +694,35 @@ footer ul.time_table li {
       outline: none !important;
       border: none;
     }
-    
-    #sidebar {
-      width: 300px;
-      position: fixed;
-      top: 0;
-      left: -301px;
-      height: 100vh;
-      z-index: 999;
-      background: #fff;
-      color: #fff !important;
-      transition: all 0.3s;
-    }
-    
-    #sidebar.active {
-      left: 0;
-    }
-    
-    #sidebar .sidebar-header {
-      padding: 20px;
-      background: #6d7fcc;
-    }
-    
-    #sidebar ul.components {
-      padding: 20px 0;
-      border-bottom: 1px solid #47748b;
-    }
-    
-    #sidebar ul p {
-      color: #fff;
-      padding: 10px;
-    }
-
-    #sidebar ul li a {
-       padding: 10px 0;
-       font-size: 20px;
-       display: block;
-       color: #222;
-       font-weight: 300;
-       letter-spacing: 1px;
-    }
-    
-    #sidebar ul li a:hover {
-      color: #fc301e;
-      background: #fff;
-    }
-    
     .menu_section {
-      float: left;
-      width: 100%;
+      float: right;
+      width: 50%;
       padding: 0 30px;
     }
 
     .menu_section ul {
-      float: left;
+      float:right;
       width: 100%;
+      display: flex;
+      margin-top: 50px;
     }
 
     .menu_section ul li {
-      float: left;
-      width: 100%;
-      border-bottom: solid #eee 1px;
+      float: right;
+      width: 100%;    
+    }
+    .menu_section ul li a {
+        font-size : 20px;
+        /* font-weight: 300; */
     }
 
-    #sidebar ul li.active>a,
-    a[aria-expanded="true"] {
-      color: #fff;
-      background: #6d7fcc;
-    }
-    
-    a[data-toggle="collapse"] {
-      position: relative;
-    }
-    
-    a[aria-expanded="false"]::before,
-    a[aria-expanded="true"]::before {
-      content: '\e259';
-      display: block;
-      position: absolute;
-      right: 20px;
-      font-family: 'Glyphicons Halflings';
-      font-size: 0.6em;
-    }
-    
-    a[aria-expanded="true"]::before {
-      content: '\e260';
-    }
     
     ul ul a {
       font-size: 0.9em !important;
       padding-left: 30px !important;
       background: #6d7fcc;
     }
-    
-    ul.CTAs {
-      padding: 20px;
-    }
-    
-    ul.CTAs a {
-      text-align: center;
-      font-size: 0.9em !important;
-      display: block;
-      border-radius: 5px;
-      margin-bottom: 5px;
-    }
+  
     
 .heading_main h2 strong.small {
     font-size: 30px;
