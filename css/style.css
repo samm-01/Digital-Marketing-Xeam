@@ -137,7 +137,11 @@ button:focus {
     background-size: auto 100%;
     width: 100%;
 }
-
+.dash_bg{
+    /* background-color: #07528d !important; */
+    height: 800px;
+    margin-top: 5%;
+}
 .section {
     float: left;
     width: 100%;
@@ -199,7 +203,6 @@ a.navbar-brand {
 .theme_color {
 	color: red;
 }
-
 
 .default-none {
 	display: none;
