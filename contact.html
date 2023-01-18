@@ -17,8 +17,36 @@
 <body id="contact" class="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
     <!-- Start header -->
     <nav>
-    <!--Content starts-->
-    <!--Content ends-->
+
+        <div class="header">
+
+            <!--Content before waves-->
+            <div class="inner-header flex">
+
+                <!-- <h1>Simple CSS Waves</h1> -->
+            </div>
+
+            <!--Waves Container-->
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave"
+                            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                    </g>
+                </svg>
+            </div>
+            <!--Waves end-->
+
+        </div>
+        <!--Header ends-->
+
         <header class="top-header">
             <div class="container" style="height: 90px;">
                 <div class="row">
@@ -43,63 +71,63 @@
     <!-- Start Form -->
     <div class="form-container container">
         <div class="contact-section">
-           <h2 class="ct-section-head">
-              CONTACT US
-           </h2>
-           <div class="row contact-fields">
-              <div class="col-md-8 left-form">
-                 <form method="post" action="">
-                    <div class="form-group">
-                       <label class="sr-only" for="fname">First Name *</label>
-                       <input class="required form-control" id="fname" name="fname" placeholder="First Name&nbsp;*"
-                          type="text">
+            <h2 class="ct-section-head">
+                CONTACT US
+            </h2>
+            <div class="row contact-fields">
+                <div class="col-md-8 left-form">
+                    <form method="post" action="">
+                        <div class="form-group">
+                            <label class="sr-only" for="fname">First Name *</label>
+                            <input class="required form-control" id="fname" name="fname" placeholder="First Name&nbsp;*"
+                                type="text">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="lname">Last Name *</label>
+                            <input class="required form-control" id="lname" name="lname" placeholder="Last Name&nbsp;*"
+                                type="text">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="contactEmail">Email *</label>
+                            <input class="required form-control h5-email" id="contactEmail" name="contactEmail"
+                                placeholder="Email&nbsp;*" type="text">
+                        </div>
+                        <!-- <div class="form-group">
+                            <label class="sr-only" for="contactPhone">Phone *</label>
+                            <input class="required form-control h5-phone" id="contactPhone" name="contactPhone"
+                                placeholder="Phone&nbsp;*" type="text">
+                        </div> -->
+                        <div class="form-group">
+                            <label class="sr-only" for="comment">Type your message here</label>
+                            <textarea class="required form-control" id="comment" name="comment"
+                                placeholder="Type your message here&nbsp;*" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-accent" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-4 contact-info">
+                    <div class="phone">
+                        <h2>Call</h2>
+                        <a href="tel:+4046872730">555.555.5555</a>
                     </div>
-                    <div class="form-group">
-                       <label class="sr-only" for="lname">Last Name *</label>
-                       <input class="required form-control" id="lname" name="lname" placeholder="Last Name&nbsp;*"
-                          type="text">
+                    <div class="email">
+                        <h2>Email</h2>
+                        <a href="mailto:info@decidedekalb.com">info@webcorpco.com</a>
                     </div>
-                    <div class="form-group">
-                       <label class="sr-only" for="contactEmail">Email *</label>
-                       <input class="required form-control h5-email" id="contactEmail" name="contactEmail"
-                          placeholder="Email&nbsp;*" type="text">
+                    <div class="location">
+                        <h2>Visit</h2>
+                        <p>One Town Center </br>
+                            123 Easy Street </br>
+                            Suite 1000 </br>
+                            Orlando, FL 32803
+                            <br>
+                        </p>
                     </div>
-                    <div class="form-group">
-                       <label class="sr-only" for="contactPhone">Phone *</label>
-                       <input class="required form-control h5-phone" id="contactPhone" name="contactPhone"
-                          placeholder="Phone&nbsp;*" type="text">
-                    </div>
-                    <div class="form-group">
-                       <label class="sr-only" for="comment">Type your message here</label>
-                       <textarea class="required form-control" id="comment" name="comment"
-                          placeholder="Type your message here&nbsp;*" rows="6"></textarea>
-                    </div>
-                    <button class="btn btn-accent" type="submit">Submit</button>
-                 </form>
-              </div>
-              <div class="col-md-4 contact-info">
-                 <div class="phone">
-                    <h2>Call</h2>
-                    <a href="tel:+4046872730">555.555.5555</a>
-                 </div>
-                 <div class="email">
-                    <h2>Email</h2>
-                    <a href="mailto:info@decidedekalb.com">info@webcorpco.com</a>
-                 </div>
-                 <div class="location">
-                    <h2>Visit</h2>
-                    <p>One Town Center </br>
-                       123 Easy Street </br>
-                       Suite 1000 </br>
-                       Orlando, FL 32803
-                       <br>
-                    </p>
-                 </div>
-              </div>
-           </div>
+                </div>
+            </div>
         </div>
-     </div>
-     <!-- End Form -->
+    </div>
+    <!-- End Form -->
 
 </body>
 
