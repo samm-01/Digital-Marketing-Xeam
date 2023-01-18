@@ -114,7 +114,10 @@ button:focus {
 	outline: none;
 }
 
-
+.top-header{
+    position: fixed !important;
+    background-color: #fff !important;
+}
 .top-header .navbar {
     padding: 0;
     min-height: 60px;
@@ -463,6 +466,9 @@ h3.small_heading {
 
 .margin-top_30 {
 	margin-top: 30px;
+}
+.top_margin{
+    margin-top: 90px;
 }
 
 .margin-bottom_10 {
